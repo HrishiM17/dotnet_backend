@@ -1,0 +1,56 @@
+## .NET / ASP.NET Core
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.swp
+*.DS_Store
+
+# Publish output
+publish/
+out/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# dotnet tool manifests restore artifacts
+.config/dotnet-tools.json
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets — never commit these
+appsettings.Production.json
+appsettings.Secrets.json
+.env
+*.pfx
+*.p12
+secrets.json
+
+# Test results
+TestResults/
+coverage/
+*.coveragexml
+*.trx
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
